@@ -44,9 +44,30 @@ namespace Assignment1
         //    }
         //}
         //q3 
-        static void Q3()
-        {
-            int pages = 464;
+        //    static void Q3()
+        //    {
+        //        int pages = 464;
 
-            Console.WriteLine(pages);
+        //        Console.WriteLine(pages);
+        //    }
+        //}
+
+        //q4 
+        static void Q4()
+        {
+            try
+            {
+                int x = 10;
+                int y = 0;
+
+                Console.WriteLine(x / y);
+            }
+            catch
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
         } }
