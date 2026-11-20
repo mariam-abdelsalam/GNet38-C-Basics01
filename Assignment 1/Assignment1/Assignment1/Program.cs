@@ -93,11 +93,29 @@ namespace Assignment1
         //}
 
         //q7
-        static void Q7()
+        //static void Q7()
+        //{
+        //    string pagesText = "464";
+
+        //    int pages = Convert.ToInt32(pagesText);
+
+        //    Console.WriteLine(pages);
+        //}
+        //q8
+        static void Q8()
         {
-            string pagesText = "464";
+            string yearText = "2023";
 
-            int pages = Convert.ToInt32(pagesText);
+            int year = int.Parse(yearText);
 
-            Console.WriteLine(pages);
+            Console.WriteLine(year);
+
+            string badText = "abc";
+
+            bool result = int.TryParse(badText, out int number);
+
+            if (!result)
+            {
+                Console.WriteLine("Invalid number");
+            }
         }
