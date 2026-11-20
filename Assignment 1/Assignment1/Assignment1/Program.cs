@@ -141,3 +141,16 @@ namespace Assignment1
             Console.WriteLine(copies);
             Console.WriteLine(newCopies);
         }
+
+        //q11
+        static void Q11()
+        {
+            int? year = null;
+
+            Console.WriteLine(year.HasValue);
+
+            year = 2023;
+
+            Console.WriteLine(year.HasValue);
+            Console.WriteLine(year.Value);
+        }
