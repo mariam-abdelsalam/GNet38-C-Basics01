@@ -73,11 +73,21 @@ namespace Assignment1
         //} }
 
         //q5
-        static void Q5()
+        //static void Q5()
+        //{
+        //    int pages = 300;
+
+        //    double totalPages = pages;
+
+        //    Console.WriteLine(totalPages);
+        //}
+
+        //q6
+        static void Q6()
         {
-            int pages = 300;
+            double price = 49.99;
 
-            double totalPages = pages;
+            int newPrice = (int)price;
 
-            Console.WriteLine(totalPages);
+            Console.WriteLine(newPrice);
         }
