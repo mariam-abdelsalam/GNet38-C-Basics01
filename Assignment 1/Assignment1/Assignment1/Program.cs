@@ -102,20 +102,30 @@ namespace Assignment1
         //    Console.WriteLine(pages);
         //}
         //q8
-        static void Q8()
+        //static void Q8()
+        //{
+        //    string yearText = "2023";
+
+        //    int year = int.Parse(yearText);
+
+        //    Console.WriteLine(year);
+
+        //    string badText = "abc";
+
+        //    bool result = int.TryParse(badText, out int number);
+
+        //    if (!result)
+        //    {
+        //        Console.WriteLine("Invalid number");
+        //    }
+        //}
+        //q9
+        static void Q9()
         {
-            string yearText = "2023";
+            int pages = 464;
 
-            int year = int.Parse(yearText);
+            string pagesText = pages.ToString();
 
-            Console.WriteLine(year);
-
-            string badText = "abc";
-
-            bool result = int.TryParse(badText, out int number);
-
-            if (!result)
-            {
-                Console.WriteLine("Invalid number");
-            }
+            Console.WriteLine(pagesText);
+            Console.WriteLine(pagesText.GetType());
         }
