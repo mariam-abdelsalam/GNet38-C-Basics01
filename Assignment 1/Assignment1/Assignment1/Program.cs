@@ -53,21 +53,31 @@ namespace Assignment1
         //}
 
         //q4 
-        static void Q4()
-        {
-            try
-            {
-                int x = 10;
-                int y = 0;
+        //static void Q4()
+        //{
+        //    try
+        //    {
+        //        int x = 10;
+        //        int y = 0;
 
-                Console.WriteLine(x / y);
-            }
-            catch
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
-        } }
+        //        Console.WriteLine(x / y);
+        //    }
+        //    catch
+        //    {
+        //        Console.WriteLine("Cannot divide by zero");
+        //    }
+        //    finally
+        //    {
+        //        Console.WriteLine("Done");
+        //    }
+        //} }
+
+        //q5
+        static void Q5()
+        {
+            int pages = 300;
+
+            double totalPages = pages;
+
+            Console.WriteLine(totalPages);
+        }
