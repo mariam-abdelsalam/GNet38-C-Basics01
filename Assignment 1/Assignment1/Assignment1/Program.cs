@@ -120,12 +120,24 @@ namespace Assignment1
         //    }
         //}
         //q9
-        static void Q9()
+        //static void Q9()
+        //{
+        //    int pages = 464;
+
+        //    string pagesText = pages.ToString();
+
+        //    Console.WriteLine(pagesText);
+        //    Console.WriteLine(pagesText.GetType());
+        //}
+        //q10
+        static void Q10()
         {
-            int pages = 464;
+            int copies = 100;
 
-            string pagesText = pages.ToString();
+            object obj = copies;
 
-            Console.WriteLine(pagesText);
-            Console.WriteLine(pagesText.GetType());
+            int newCopies = (int)obj;
+
+            Console.WriteLine(copies);
+            Console.WriteLine(newCopies);
         }
