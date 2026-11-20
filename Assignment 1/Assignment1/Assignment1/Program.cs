@@ -170,3 +170,20 @@ namespace Assignment1
 
             Console.WriteLine(title);
         }
+        //Q14
+        static void Q14()
+        {
+            string? title = null;
+
+            Console.WriteLine(title ?? "Untitled");
+
+            title ??= "Untitled";
+
+            Console.WriteLine(title);
+
+            string? name = "Ahmed";
+
+            string confirmedName = name!;
+
+            Console.WriteLine(confirmedName);
+        }
