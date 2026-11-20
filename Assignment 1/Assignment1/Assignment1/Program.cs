@@ -83,11 +83,21 @@ namespace Assignment1
         //}
 
         //q6
-        static void Q6()
+        //static void Q6()
+        //{
+        //    double price = 49.99;
+
+        //    int newPrice = (int)price;
+
+        //    Console.WriteLine(newPrice);
+        //}
+
+        //q7
+        static void Q7()
         {
-            double price = 49.99;
+            string pagesText = "464";
 
-            int newPrice = (int)price;
+            int pages = Convert.ToInt32(pagesText);
 
-            Console.WriteLine(newPrice);
+            Console.WriteLine(pages);
         }
