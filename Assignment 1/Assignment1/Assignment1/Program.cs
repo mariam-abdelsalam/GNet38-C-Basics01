@@ -161,3 +161,12 @@ namespace Assignment1
 
             Console.WriteLine(reviewer == null);
         }
+        //Q13
+        static void Q13()
+        {
+            Book? book = null;
+
+            string? title = book?.Title;
+
+            Console.WriteLine(title);
+        }
