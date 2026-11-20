@@ -154,3 +154,10 @@ namespace Assignment1
             Console.WriteLine(year.HasValue);
             Console.WriteLine(year.Value);
         }
+        //q12
+        static void Q12()
+        {
+            string? reviewer = null;
+
+            Console.WriteLine(reviewer == null);
+        }
