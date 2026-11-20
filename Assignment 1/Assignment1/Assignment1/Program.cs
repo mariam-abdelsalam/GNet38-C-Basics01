@@ -29,17 +29,24 @@ namespace Assignment1
         //    }
         //}
         //q2 
-        static void Q2()
-        {
-            Book book = new Book
-            {
-                Title = "C# Basics",
-                Pages = 464
-            };
+        //    static void Q2()
+        //    {
+        //        Book book = new Book
+        //        {
+        //            Title = "C# Basics",
+        //            Pages = 464
+        //        };
 
-            Console.WriteLine(book.ToString());
-            Console.WriteLine(book.Equals(book));
-            Console.WriteLine(book.GetHashCode());
-            Console.WriteLine(book.GetType());
-        }
-    }
+        //        Console.WriteLine(book.ToString());
+        //        Console.WriteLine(book.Equals(book));
+        //        Console.WriteLine(book.GetHashCode());
+        //        Console.WriteLine(book.GetType());
+        //    }
+        //}
+        //q3 
+        static void Q3()
+        {
+            int pages = 464;
+
+            Console.WriteLine(pages);
+        } }
